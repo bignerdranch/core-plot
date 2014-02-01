@@ -1182,6 +1182,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = UniversalLibrary;
+				SDKROOT = iphoneos6.1;
 			};
 			name = Debug;
 		};
@@ -1189,6 +1190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = UniversalLibrary;
+				SDKROOT = iphoneos6.1;
 			};
 			name = Release;
 		};
@@ -1214,6 +1216,7 @@
 				);
 				PRODUCT_NAME = "CorePlot-CocoaTouch";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos6.1;
 				SYMROOT = "$(PROJECT_DIR)/../build";
 			};
 			name = Debug;
@@ -1239,6 +1242,7 @@
 				);
 				PRODUCT_NAME = "CorePlot-CocoaTouch";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos6.1;
 				SYMROOT = "$(PROJECT_DIR)/../build";
 				ZERO_LINK = NO;
 			};
